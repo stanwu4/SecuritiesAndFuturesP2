@@ -5,3 +5,8 @@ Final result will be like this:  ![image](https://github.com/stanwu4/SecuritiesA
 
 
 Fields explanations: instrumentId id of future being traded counterIp counterIp clientIp clientIp exchangeIp exchangeIp WeightedLantency weighted lantency (divided by 10^6) effRatio efficiency ratio changeRatio change ratio TrueLatencyDx latency median each day (divided by 10^6)
+
+For Part 3, your task is to find the number of days with no data for a specific combination.
+
+Select a period of 7 consecutive days. For each of the 7 days, do the same job in phase 2. For the combinations in last day's result, find out which day they first appeared in the past 7days. After you find out their day of first appearance, find the their number of days with no data after this day.
+
